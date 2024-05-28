@@ -1,0 +1,28 @@
+﻿<Window x:Class="FrontSims.Guest.CancelReservationsPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontSims.Guest"
+        mc:Ignorable="d"
+        Title="CancelReservationsPage" Height="450" Width="800">
+    <Grid>
+
+        <DataGrid x:Name="reservationsDataGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Reservation ID" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Apartment Name" Binding="{Binding ApartmentName}" />
+                <DataGridTextColumn Header="Reservation Date" Binding="{Binding ReservationDate}" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+                <DataGridTemplateColumn Header="Cancel Reservation">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Cancel Reservation" Click="CancelReservation_Click" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</Window>

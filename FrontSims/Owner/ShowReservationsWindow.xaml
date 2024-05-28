@@ -1,0 +1,27 @@
+﻿<Window x:Class="FrontSims.Owner.ShowReservationsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontSims.Owner"
+        mc:Ignorable="d"
+        Title="ShowReservationsWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="reservationsDataGrid" AutoGenerateColumns="False">
+
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Reservation ID" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Apartment Name" Binding="{Binding ApartmentName}" />
+                <DataGridTextColumn Header="Reservation Date" Binding="{Binding ReservationDate}" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <ComboBox x:Name="cmbReservationsStatusFilter" SelectedIndex="0" HorizontalAlignment="Right" VerticalAlignment="Top" MaxHeight="50" Margin="0,3,253,0" RenderTransformOrigin="-0.311,0.533">
+            <ComboBoxItem Content="Approved" Tag="Approved"/>
+            <ComboBoxItem Content="OnHold" Tag="OnHold"/>
+        </ComboBox>
+        <Button Content="Filter" Click="Filter_Click" VerticalAlignment="Top" Margin="400,4,348,0" Width="52"/>
+    </Grid>
+</Window>

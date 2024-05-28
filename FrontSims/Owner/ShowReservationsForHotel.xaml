@@ -1,0 +1,28 @@
+﻿<Window x:Class="FrontSims.Owner.ShowReservationsForHotel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontSims.Owner"
+        mc:Ignorable="d"
+        Title="ShowReservationsForHotel" Height="450" Width="1200">
+    <Grid>
+        <DataGrid x:Name="reservationsDataGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Reservation ID" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Apartment Name" Binding="{Binding ApartmentName}" />
+                <DataGridTextColumn Header="Reservation Date" Binding="{Binding ReservationDate}" />
+                <DataGridTextColumn Header="Hotel Password" Binding="{Binding HotelPassword}" />
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+                <DataGridTemplateColumn Header="Change Status">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Change Status" Click="ChangeStatus_Click" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</Window>

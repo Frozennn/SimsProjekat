@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Administrator\AdministratorAddHotelPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Administrator\AdministratorMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Administrator\AdministratorRegisterPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Administrator\AdministratorShowAllUsersPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CommonFunctionalities\HotelListWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Guest\ApartmentReservationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Guest\CancelReservationsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Guest\GuestMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Guest\ScheduleReservationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Guest\ShowAllReservationsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\EditHotelStatus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\EditReservation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\OwnerApartmentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\OwnerApproveAndDeclineHotels.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\OwnerMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\ShowOwnerHotels.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\ShowReservationsForHotel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Owner\ShowReservationsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Administrator\AdministratorAddHotelPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Administrator\AdministratorMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Administrator\AdministratorRegisterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Administrator\AdministratorShowAllUsersPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CommonFunctionalities\HotelListWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Guest\ApartmentReservationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Guest\CancelReservationsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Guest\GuestMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Guest\ScheduleReservationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Guest\ShowAllReservationsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\EditHotelStatus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\EditReservation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\OwnerApartmentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\OwnerApproveAndDeclineHotels.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\OwnerMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\ShowOwnerHotels.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\ShowReservationsForHotel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Owner\ShowReservationsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

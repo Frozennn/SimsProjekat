@@ -1,0 +1,28 @@
+﻿<Window x:Class="FrontSims.Guest.ApartmentReservationPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontSims.Guest"
+        mc:Ignorable="d"
+        Title="ApartmentReservationPage" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="apartmentsDataGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" />
+                <DataGridTextColumn Header="Number Of Rooms" Binding="{Binding NumberOfRooms}" />
+                <DataGridTextColumn Header="Maximum Guest Number" Binding="{Binding MaxGuestNumber}" />
+                <DataGridTextColumn Header="Owner JMBG" Binding="{Binding OwnerJMBG}" />
+                <DataGridTextColumn Header="Hotel Password" Binding="{Binding HotelPassword}" />
+                <DataGridTemplateColumn Header="Reserve Apartment">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Reserve" Click="ReserveApartment_Click" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

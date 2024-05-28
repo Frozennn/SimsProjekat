@@ -1,0 +1,36 @@
+﻿<Window x:Class="FrontSims.Administrator.AdministratorAddHotelPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontSims.Administrator"
+        mc:Ignorable="d"
+        Title="AdministratorAddHotelPage" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Hotel Name:" FontWeight="Bold"/>
+            <TextBox x:Name="txtHotelName" Width="200" Margin="0,5"/>
+
+            <TextBlock Text="Year of Construction:" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox x:Name="txtYearOfConstruction" Width="200" Margin="0,5"/>
+
+            <TextBlock Text="Number of Stars:" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox x:Name="txtNumberOfStars" Width="200" Margin="0,5"/>
+
+            <TextBlock Text="Password:" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox x:Name="txtPassword" Width="200" Margin="0,5"/>
+
+            <TextBlock Text="Owner JMBG:" FontWeight="Bold" Margin="0,10,0,0"/>
+            <TextBox x:Name="txtOwnerJMBG" Width="200" Margin="0,5"/>
+
+            <TextBlock Text="Hotel Status:" FontWeight="Bold" Margin="0,10,0,0"/>
+            <ComboBox x:Name="cmbHotelStatus" Width="200">
+                <ComboBoxItem Content="OnHold"/>
+            </ComboBox>
+
+            <!-- Dodajte ostala polja za unos podataka o hotelu prema potrebi -->
+
+            <Button Content="Create" Click="CreateHotel_Click" HorizontalAlignment="Center" Width="100" Margin="0,20"/>
+        </StackPanel>
+    </Grid>
+</Window>

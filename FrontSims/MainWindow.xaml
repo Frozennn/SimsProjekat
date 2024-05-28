@@ -1,0 +1,27 @@
+﻿<Window x:Class="FrontSims.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontSims"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Login" HorizontalAlignment="Center" FontSize="24" Margin="0,20"/>
+
+        <TextBlock Grid.Row="1" Text="Username:" Margin="20,10"/>
+        <TextBox Grid.Row="1" x:Name="txtUsername" Margin="120,10,20,10"/>
+
+        <TextBlock Grid.Row="2" Text="Password:" Margin="20,10"/>
+        <PasswordBox Grid.Row="2" x:Name="txtPassword" Margin="120,10,20,10"/>
+
+        <Button Grid.Row="3" Content="Login" Click="Login_Click" Width="100" Margin="0,20,0,0" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>

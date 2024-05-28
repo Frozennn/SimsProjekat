@@ -1,0 +1,28 @@
+﻿<Window x:Class="FrontSims.Owner.ShowOwnerHotels"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontSims.Owner"
+        mc:Ignorable="d"
+        Title="ShowOwnerHotels" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="hotelsDataGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Year of Construction" Binding="{Binding YearOfConstruction}" />
+                <DataGridTextColumn Header="Number of Stars" Binding="{Binding NumberOfStars}" />
+                <DataGridTextColumn Header="Password" Binding="{Binding Password}" />
+                <DataGridTextColumn Header="Hotel Status" Binding="{Binding HotelStatus}" />
+                <!-- Dodajte ostale kolone po potrebi -->
+                <DataGridTemplateColumn Header="Reservations">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="See reservations" Click="SeeReservations_Click" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
