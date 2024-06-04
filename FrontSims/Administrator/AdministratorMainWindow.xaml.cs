@@ -30,27 +30,34 @@ namespace FrontSims
         {
             Window window = new HotelListWindow();
             window.Show();
-            this.Close();
+          
         }
         private void OpenRegistrationPage_Click(object sender, RoutedEventArgs e)
         {
             Window window = new AdministratorRegisterPage();
             window.Show();
-            this.Close();
+           
         }
 
         private void OpenShowAllUsersPage_Click(object sender, RoutedEventArgs e)
         {
             Window window = new AdministratorShowAllUsersPage();
             window.Show();
-            this.Close();
+           
         }
 
         private void OpenAddHotelPage_Click(object sender, RoutedEventArgs e)
         {
             Window window = new AdministratorAddHotelPage();
             window.Show();
-            this.Close();
+           
+        }
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
+         
         }
 
     }

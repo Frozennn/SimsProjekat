@@ -23,5 +23,6 @@
             <ComboBoxItem Content="OnHold" Tag="OnHold"/>
         </ComboBox>
         <Button Content="Filter" Click="Filter_Click" VerticalAlignment="Top" Margin="400,4,348,0" Width="52"/>
+        <Button Content="Go Back" Click="GoBackButton_Click" VerticalAlignment="Top" Margin="700,4,348,0" Width="52"/>
     </Grid>
 </Window>

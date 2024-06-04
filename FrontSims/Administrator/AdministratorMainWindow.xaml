@@ -12,6 +12,7 @@
         <Button Content="Register new User" Click="OpenRegistrationPage_Click" HorizontalAlignment="Left" Margin="93,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.599,0.749" />
         <Button Content="Show All Users" Click="OpenShowAllUsersPage_Click" HorizontalAlignment="Left" Margin="206,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.599,0.749" />
         <Button Content="Add Hotel" Click="OpenAddHotelPage_Click" HorizontalAlignment="Left" Margin="306,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.599,0.749" />
+        <Button Content="Go Back" Click="GoBackButton_Click" HorizontalAlignment="Left" Margin="406,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.599,0.749" />
         
     </Grid>
 </Window>

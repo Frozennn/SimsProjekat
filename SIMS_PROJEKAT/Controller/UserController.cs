@@ -43,7 +43,7 @@ namespace Sims_Projekat.Controller
             return  User == null ? NotFound("User not found") : Ok(User); 
         }
 
-        [HttpGet("{userId}")]
+        [HttpGet("{jmbg}")]
         public IActionResult GetUserByJMBG(string jmbg)
         {
             var User = UserService.GetUserByJMBG(jmbg);

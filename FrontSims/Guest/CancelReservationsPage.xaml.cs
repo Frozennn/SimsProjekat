@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using FrontSims.Owner;
+using Newtonsoft.Json;
 using Sims_Projekat.Model;
 using SIMS_PROJEKAT.Model;
 using System;
@@ -25,6 +26,7 @@ namespace FrontSims.Guest
     public partial class CancelReservationsPage : Window
     {
         private User user;
+        private Reservation reservation;
         public CancelReservationsPage(User user)
         {
             this.user = user;
@@ -97,18 +99,15 @@ namespace FrontSims.Guest
 
             // Dobijanje korisnika iz reda
             Reservation reservation = (Reservation)row.Item;
-            try
-            {
+            Window window = new EditReservation(reservation);
+            window.Show();
+        }
 
-                IEnumerable<Reservation> reservations = await CancelReservation(reservation.Id);
-                LoadReservations();
-               // reservationsDataGrid.ItemsSource = reservations;
-               // reservationsDataGrid.Items.Refresh();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}");
-            }
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
+            
         }
     }
 }

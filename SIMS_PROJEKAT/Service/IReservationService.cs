@@ -78,7 +78,7 @@ namespace SIMS_PROJEKAT.Service
         public bool CanCreateReservation(Reservation reservation)
         {
             List<Reservation> Reservations = Repository.GetAllReservations();
-            var FoundReservation = Reservations.Find(r => r.ReservationDate == reservation.ReservationDate && r.ApartmentName == reservation.ApartmentName && r.Status == ReservationStatus.Approved);
+            var FoundReservation = Reservations.Find(r => r.ReservationDate.DayOfYear == reservation.ReservationDate.DayOfYear && r.ApartmentName == reservation.ApartmentName && r.Status == ReservationStatus.Approved);
             return FoundReservation != null ? false : true;
 
         }
@@ -96,7 +96,7 @@ namespace SIMS_PROJEKAT.Service
            {
                 Reservation.Status = statusEnum;
                 Reservation.Description = description;
-                Reservation.ReservationDate = DateTime.UtcNow;
+                Reservation.ReservationDate = DateTime.SpecifyKind(Reservation.ReservationDate, DateTimeKind.Utc);
            }
 
            Repository.UpdateReservation(Reservation);

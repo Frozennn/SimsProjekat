@@ -24,5 +24,6 @@
             </DataGrid.Columns>
 
         </DataGrid>
+        <Button Content="Go Back" Click="GoBackButton_Click" HorizontalAlignment="Left"  Margin="659,0,0,383"/>
     </Grid>
 </Window>

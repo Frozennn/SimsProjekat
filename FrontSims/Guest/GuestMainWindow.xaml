@@ -12,5 +12,6 @@
         <Button Content="Show Hotels" Click="OpenHotelButton_Click" HorizontalAlignment="Left" Margin="0 10 10 0" VerticalAlignment="Top" />
         <Button Content="Reserve Apartment" Click="ApartmentReservation_Click" HorizontalAlignment="Left" Margin="95,10,0,0" VerticalAlignment="Top" />
         <Button Content="Show All Reservations" Click="ShowAllReservations_Click" HorizontalAlignment="Left" Margin="219,10,0,0" VerticalAlignment="Top" />
+        <Button Content="Go Back" Click="GoBackButton_Click" HorizontalAlignment="Left" Margin="359,10,0,0" VerticalAlignment="Top" />
     </Grid>
 </Window>

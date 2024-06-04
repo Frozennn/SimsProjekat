@@ -54,14 +54,14 @@ namespace Sims_Projekat.Service
 
         public List<Hotel> SortHotelsByName()
         {
-            List<Hotel> Hotels = Repository.GetAllHotels();
+            List<Hotel> Hotels = Repository.GetAllHotels().Where(h => h.HotelStatus == HotelStatus.Approved).ToList();
             return Hotels.OrderBy(h => h.Name).ToList();
         }
 
         public List<Hotel> SortHotelsByStars()
         {
-            List<Hotel> Hotels = Repository.GetAllHotels();
-            return Hotels.OrderBy(h => h.NumberOfStars).ToList();
+            List<Hotel> Hotels = Repository.GetAllHotels().Where(h => h.HotelStatus == HotelStatus.Approved).ToList();
+            return Hotels.OrderBy(h => h.NumberOfStars ).ToList();
         }
 
         public List<Hotel> SearchHotels(string searchTerm, string searchParameter)

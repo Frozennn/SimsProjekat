@@ -13,5 +13,6 @@
         <Button Content="Add Apartment" Click="AddApartment_Click" HorizontalAlignment="Left" Margin="230,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.143,0.603" />
         <Button Content="Show Reservations" Click="ShowReservations_Click" HorizontalAlignment="Left" Margin="332,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.668,0.536" />
         <Button Content="Approve Hotels" Click="ApproveHotels_Click" HorizontalAlignment="Left" Margin="462,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.668,0.536" />
+        <Button Content="Go Back" Click="GoBackButton_Click" HorizontalAlignment="Left" Margin="562,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.668,0.536" />
     </Grid>
 </Window>

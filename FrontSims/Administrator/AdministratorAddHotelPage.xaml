@@ -29,8 +29,9 @@
             </ComboBox>
 
             <!-- Dodajte ostala polja za unos podataka o hotelu prema potrebi -->
-
+            
             <Button Content="Create" Click="CreateHotel_Click" HorizontalAlignment="Center" Width="100" Margin="0,20"/>
+            <Button Content="Go Back" Click="GoBackButton_Click" Width="100"/>
         </StackPanel>
     </Grid>
 </Window>

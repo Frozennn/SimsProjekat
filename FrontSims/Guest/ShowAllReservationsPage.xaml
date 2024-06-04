@@ -18,6 +18,7 @@
                 <DataGridTextColumn Header="Apartment Name" Binding="{Binding ApartmentName}" />
                 <DataGridTextColumn Header="Reservation Date" Binding="{Binding ReservationDate}" />
                 <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" />
             </DataGrid.Columns>
             
         </DataGrid>
@@ -28,5 +29,6 @@
         </ComboBox>
         <Button Content="Filter" Click="Filter_Click" VerticalAlignment="Top" Margin="400,4,348,0" Width="52"/>
         <Button Content="Cancel reservations.." Click="CancelReservationsPage_Click" VerticalAlignment="Top" Margin="719,2,166,0"/>
+        <Button Content="Go Back.." Click="GoBackButton_Click" VerticalAlignment="Top" Margin="858,3,83,0"/>
     </Grid>
 </Window>

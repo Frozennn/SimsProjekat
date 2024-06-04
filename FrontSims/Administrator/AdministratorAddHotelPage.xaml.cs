@@ -74,5 +74,11 @@ namespace FrontSims.Administrator
             return HotelStatus.Declined;
         }
 
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new AdministratorMainWindow();
+            window.Show();
+            
+        }
     }
 }

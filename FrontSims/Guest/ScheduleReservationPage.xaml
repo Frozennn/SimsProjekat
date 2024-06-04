@@ -12,6 +12,7 @@
             <DatePicker x:Name="datePicker" Width="200" Margin="0,5"/>
 
             <Button Content="Confirm Reservation" Click="ConfirmReservation_Click" HorizontalAlignment="Center" Width="150" Margin="0,20"/>
+            <Button Content="Go Back" Click="GoBackButton_Click" HorizontalAlignment="Center" Width="150" Margin="0,20"/>
         </StackPanel>
     </Grid>
 </Window>

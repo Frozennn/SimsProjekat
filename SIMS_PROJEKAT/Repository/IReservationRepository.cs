@@ -48,9 +48,9 @@ namespace SIMS_PROJEKAT.Repository
 
             if(Reservation.Status != ReservationStatus.Declined)
                {
-                    Reservation.Status = ReservationStatus.Declined;
-                    DbContext.SaveChanges();
-                    return true;
+                DbContext.Remove(Reservation);
+                DbContext.SaveChanges();
+                return true;
                }
             return false;
         }

@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 using FrontSims.CommonFunctionalities;
 using FrontSims.Owner;
@@ -33,7 +34,6 @@ namespace FrontSims
         {
             Window window = new HotelListWindow();
             window.Show();
-            this.Close();
         }
 
         
@@ -42,28 +42,30 @@ namespace FrontSims
         {
             Window window = new OwnerApartmentWindow();
             window.Show();
-            this.Close();
         }
 
         private void ShowReservations_Click(object sender, RoutedEventArgs e)
         {
             Window window = new ShowReservationsWindow();
             window.Show();
-            this.Close();
         }
 
         private void OpenOwnerHotelButton_Click(object sender, RoutedEventArgs e)
         {
             Window window = new ShowOwnerHotels(user);
             window.Show();
-            this.Close();
         }
 
         private void ApproveHotels_Click(object sender, RoutedEventArgs e)
         {
             Window window = new OwnerApproveAndDeclineHotels(user);
             window.Show();
-            this.Close();
+        }
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
         }
         
 

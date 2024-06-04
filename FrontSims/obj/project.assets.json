@@ -986,19 +986,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\count\\.nuget\\packages\\": {}
+    "C:\\Users\\marko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SIMS\\SIMS_PROJEKAT\\FrontSims\\FrontSims.csproj",
+      "projectUniqueName": "C:\\Users\\marko\\Desktop\\SIMS PROJEKAT\\SimsProjekat\\FrontSims\\FrontSims.csproj",
       "projectName": "FrontSims",
-      "projectPath": "D:\\SIMS\\SIMS_PROJEKAT\\FrontSims\\FrontSims.csproj",
-      "packagesPath": "C:\\Users\\count\\.nuget\\packages\\",
-      "outputPath": "D:\\SIMS\\SIMS_PROJEKAT\\FrontSims\\obj\\",
+      "projectPath": "C:\\Users\\marko\\Desktop\\SIMS PROJEKAT\\SimsProjekat\\FrontSims\\FrontSims.csproj",
+      "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marko\\Desktop\\SIMS PROJEKAT\\SimsProjekat\\FrontSims\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\count\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1012,8 +1012,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\SIMS\\SIMS_PROJEKAT\\SIMS_PROJEKAT\\SIMS_PROJEKAT.csproj": {
-              "projectPath": "D:\\SIMS\\SIMS_PROJEKAT\\SIMS_PROJEKAT\\SIMS_PROJEKAT.csproj"
+            "C:\\Users\\marko\\Desktop\\SIMS PROJEKAT\\SimsProjekat\\SIMS_PROJEKAT\\SIMS_PROJEKAT.csproj": {
+              "projectPath": "C:\\Users\\marko\\Desktop\\SIMS PROJEKAT\\SimsProjekat\\SIMS_PROJEKAT\\SIMS_PROJEKAT.csproj"
             }
           }
         }
@@ -1052,7 +1052,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

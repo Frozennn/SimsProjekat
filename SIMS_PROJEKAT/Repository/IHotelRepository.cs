@@ -61,7 +61,7 @@ namespace Sims_Projekat.Repository
 
         public List<Hotel> SearchHotels(string searchTerm, string searchParameter)
         {
-            List<Hotel> Hotels = GetAllHotels();
+            List<Hotel> Hotels = GetAllHotels().Where(h => h.HotelStatus == HotelStatus.Approved).ToList();
 
             switch (searchParameter.ToLower())
             {
@@ -95,7 +95,7 @@ namespace Sims_Projekat.Repository
 
         public List<Hotel> SearchHotelsByApartments(string searchTerm, string searchParameter)
         {
-            List<Hotel> Hotels = GetAllHotels();
+            List<Hotel> Hotels = GetAllHotels().Where(h => h.HotelStatus == HotelStatus.Approved).ToList();
             List<Apartment> Apartments = GetAllApartments();
 
             Apartments.Where(a => a.NumberOfRooms.Equals(searchTerm));

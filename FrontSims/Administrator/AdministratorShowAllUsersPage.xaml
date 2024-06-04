@@ -25,6 +25,7 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Content="Go Back" Click="GoBackButton_Click" HorizontalAlignment="Right" Margin="0,3,350,0" VerticalAlignment="Top" />
         <Button Content="Sort By FirstName" Click="SortByFirstNameButton_Click" HorizontalAlignment="Right" Margin="0,3,240,0" VerticalAlignment="Top" />
         <Button Content="Sort By LastName" Click=" SortByLastNameButton_Click" HorizontalAlignment="Right" Margin="0,3,137,0" VerticalAlignment="Top" RenderTransformOrigin="0.821,0.779" />
         <ComboBox x:Name="cmbUserTypeFilter" SelectedIndex="0" HorizontalAlignment="Right" VerticalAlignment="Top" MaxHeight="50" Margin="0,1,67,0" RenderTransformOrigin="-0.311,0.533">

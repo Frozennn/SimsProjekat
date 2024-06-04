@@ -33,7 +33,7 @@ namespace FrontSims
         {
             Window window = new HotelListWindow();
             window.Show();
-            this.Close();
+            
         }
 
         
@@ -42,15 +42,22 @@ namespace FrontSims
         {
             Window window = new ApartmentReservationPage(user);
             window.Show();
-            this.Close();
+            
         }
 
         private void ShowAllReservations_Click(object sender, RoutedEventArgs e)
         {
             Window window = new ShowAllReservationsPage(user);
             window.Show();
-            this.Close();
+            
         }
-        
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
+           
+        }
+
     }
 }

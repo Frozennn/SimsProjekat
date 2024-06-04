@@ -108,7 +108,7 @@ namespace FrontSims
                 }
 
                 window.Show();
-                this.Close();
+              
                 
             }
             else

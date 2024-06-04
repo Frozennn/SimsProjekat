@@ -35,3 +35,40 @@ D:\SIMS\SIMS_PROJEKAT\SIMS_PROJEKAT\obj\Debug\net6.0\refint\SIMS_PROJEKAT.dll
 D:\SIMS\SIMS_PROJEKAT\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.pdb
 D:\SIMS\SIMS_PROJEKAT\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.genruntimeconfig.cache
 D:\SIMS\SIMS_PROJEKAT\SIMS_PROJEKAT\obj\Debug\net6.0\ref\SIMS_PROJEKAT.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\appsettings.json
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\SIMS_PROJEKAT.exe
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\SIMS_PROJEKAT.deps.json
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\SIMS_PROJEKAT.runtimeconfig.json
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\SIMS_PROJEKAT.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\SIMS_PROJEKAT.pdb
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Npgsql.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.csproj.AssemblyReference.cache
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.AssemblyInfoInputs.cache
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.AssemblyInfo.cs
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.csproj.CoreCompileInputs.cache
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\staticwebassets\msbuild.SIMS_PROJEKAT.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\staticwebassets\msbuild.build.SIMS_PROJEKAT.props
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SIMS_PROJEKAT.props
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SIMS_PROJEKAT.props
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\scopedcss\bundle\SIMS_PROJEKAT.styles.css
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.csproj.CopyComplete
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\refint\SIMS_PROJEKAT.dll
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.pdb
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\SIMS_PROJEKAT.genruntimeconfig.cache
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\SIMS_PROJEKAT\obj\Debug\net6.0\ref\SIMS_PROJEKAT.dll

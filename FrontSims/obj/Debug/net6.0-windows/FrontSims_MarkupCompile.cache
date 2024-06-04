@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\SIMS\SIMS_PROJEKAT\FrontSims\obj\Debug\net6.0-windows\
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\FrontSims\obj\Debug\net6.0-windows\
 FrontSims
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\SIMS\SIMS_PROJEKAT\FrontSims\App.xaml
+C:\Users\marko\Desktop\SIMS PROJEKAT\SimsProjekat\FrontSims\App.xaml
 19129413787
 
 21-1601795752
-332-2105924508
+332-1829140458
 Administrator\AdministratorAddHotelPage.xaml;Administrator\AdministratorMainWindow.xaml;Administrator\AdministratorRegisterPage.xaml;Administrator\AdministratorShowAllUsersPage.xaml;CommonFunctionalities\HotelListWindow.xaml;Guest\ApartmentReservationPage.xaml;Guest\CancelReservationsPage.xaml;Guest\GuestMainWindow.xaml;Guest\ScheduleReservationPage.xaml;Guest\ShowAllReservationsPage.xaml;MainWindow.xaml;Owner\EditHotelStatus.xaml;Owner\EditReservation.xaml;Owner\OwnerApartmentWindow.xaml;Owner\OwnerApproveAndDeclineHotels.xaml;Owner\OwnerMainWindow.xaml;Owner\ShowOwnerHotels.xaml;Owner\ShowReservationsForHotel.xaml;Owner\ShowReservationsWindow.xaml;
 
 False

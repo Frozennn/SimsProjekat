@@ -17,7 +17,8 @@
                     <ComboBoxItem Content="Declined" />
                 </ComboBox>
             </StackPanel>
-            <Button Content="Save" Click="UpdateHotelButton_Click" Width="80" HorizontalAlignment="Center" />
+            <Button Content="Save" Click="UpdateHotelButton_Click" Width="80" HorizontalAlignment="Center" Margin="0,20" />
+            <Button Content="Go Back" Click="GoBackButton_Click" Width="80" HorizontalAlignment="Center" />
         </StackPanel>
     </Grid>
 </Window>

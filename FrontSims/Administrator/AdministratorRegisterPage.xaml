@@ -20,6 +20,7 @@
                 <ComboBoxItem Content="Owner"/>
             </ComboBox>
             <Button Content="Register" Click="Register_Click" HorizontalAlignment="Center" Width="100"/>
+            <Button Content="Go back" Click="GoBackButton_Click" Width="100" Margin="0,20" />
         </StackPanel>
     </Grid>
 </Window>

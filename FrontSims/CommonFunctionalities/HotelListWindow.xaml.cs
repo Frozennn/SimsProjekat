@@ -47,7 +47,7 @@ namespace FrontSims.CommonFunctionalities
         {
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("https://localhost:7040/api/Hotel");
+                client.BaseAddress = new Uri("https://localhost:7040/api/Hotel/api/Hotel/approvedHotels");
 
                 var response = await client.GetAsync("");
                 if (response.IsSuccessStatusCode)

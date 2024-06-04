@@ -24,6 +24,7 @@
             </StackPanel>
 
             <Button Content="Save" Click="UpdateReservationButton_Click" Width="80" HorizontalAlignment="Center" />
+            <Button Content="Go Back" Click="GoBackButton_Click" Width="80" HorizontalAlignment="Center" Margin="0,20" />
         </StackPanel>
     </Grid>
 </Window>

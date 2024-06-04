@@ -84,7 +84,6 @@ namespace FrontSims.Guest
         {
             Window window = new CancelReservationsPage(user);
             window.Show();
-            this.Close();
         }
         
 
@@ -106,6 +105,12 @@ namespace FrontSims.Guest
                     return null;
                 }
             }
+        }
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
         }
     }
 }

@@ -71,5 +71,11 @@ namespace FrontSims.Owner
             }
 
         }
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
+        }
     }
 }

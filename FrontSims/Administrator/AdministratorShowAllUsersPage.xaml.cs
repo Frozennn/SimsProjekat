@@ -200,6 +200,14 @@ namespace FrontSims.Administrator
         }
 
 
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new AdministratorMainWindow();
+            window.Show();
+       
+        }
+
+
     }
 }
 

@@ -40,6 +40,8 @@ namespace FrontSims.Guest
                 ApartmentName = apartment.Name,
                 ReservationDate = datePicker.SelectedDate ?? DateTime.UtcNow,
                 Status = ReservationStatus.OnHold,
+                HotelPassword = apartment.HotelPassword,
+                Description = apartment.Description,
                 GuestJMBG = user.JMBG,
             };
 
@@ -63,6 +65,12 @@ namespace FrontSims.Guest
             }
 
         }
-        
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Window window = new MainWindow();
+            window.Show();
+        }
+
     }
 }
